@@ -1,0 +1,25 @@
+{
+    "name": "icecream/tool",
+    "description": "icecream sdk 公共方法",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icecream",
+            "email": "icecream@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-xml": "*",
+        "ext-simplexml": "*",
+        "ext-iconv": "*",
+        "ext-libxml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ice\\Tool\\": "src"
+        }
+    }
+}
